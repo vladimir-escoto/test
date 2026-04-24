@@ -1,0 +1,6 @@
+/loadtest
+/loadtest.exe
+/loadtest-report-*.csv
+/loadtest-report.csv
+*.log
+.DS_Store

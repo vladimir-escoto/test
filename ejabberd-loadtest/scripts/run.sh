@@ -54,4 +54,4 @@ exec ./loadtest \
   -register-api-user "$REG_API_USER" \
   -register-api-pass "$REG_API_PASS" \
   -csv "$CSV" \
-  "${EXTRA[@]}"
+  ${EXTRA[@]+"${EXTRA[@]}"}
